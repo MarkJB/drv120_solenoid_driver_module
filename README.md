@@ -4,6 +4,8 @@ A small PCB module for efficiently driving a solenoid.
 
 Updated double sided version for professional production.
 
-Designed for use with drawing machines for fast up/down pen control, the DRV120 chip takes care of the initial fast energize required to get the solenoid moving then ramps down the current to a lower level to hold the solenoid in place. Peak & keep (hold) current and PWM frequency are configurable with resistors and caps but using the default 0 ohm resistor values for testing and the suggested 1uF cap for the default PWM frequency. See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for details.
+Originally designed for use with drawing machines for fast up/down pen control but applicable to any project that involves driving a DC solenoid. A DRV120 chip takes care of the initial fast energize required to get the solenoid moving then ramps down the current to a lower level to hold the solenoid in place. Peak & keep (hold) current and PWM frequency are configurable with resistors and caps (see schematic and data sheet). Testing with the chosen solenoid (MCSMO-0603S12STD) resulted in using a 4.7uF capacitor for C1 (KEEP), 47K ohm resistor for R1 (PEAK) and a 0 ohm resisitor for R2 (OSC) for the default PWM frequency value.
+
+See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
  
 ![PCB with components](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/drv120_solenoid_driver.png)
