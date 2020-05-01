@@ -9,5 +9,7 @@ Originally designed for use with drawing machines for fast up/down pen control b
 Testing with the chosen solenoid (MCSMO-0603S12STD) resulted in using a 4.7uF capacitor for C1 (KEEP), 47K ohm resistor for R1 (PEAK) and a 0 ohm resisitor for R2 (OSC) for the default PWM frequency value (~20kHz).
 
 See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
- 
+
+![Prototype boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/IMG_20200428_175253667.png)
+
 ![PCB with components](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/drv120_solenoid_driver.png)
