@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:drv120_solenoid_driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,24 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L custom:drv120 U1
-U 1 1 5E545EF0
-P 5500 3000
-F 0 "U1" H 5750 3175 50  0000 C CNN
-F 1 "drv120" H 5750 3084 50  0000 C CNN
-F 2 "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm" H 5700 3000 50  0001 C CNN
-F 3 "" H 5700 3000 50  0001 C CNN
-	1    5500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D1
 U 1 1 5E546F55
 P 7050 2950
 F 0 "D1" V 7004 3029 50  0000 L CNN
-F 1 "D" V 7095 3029 50  0000 L CNN
+F 1 "STTH2R06A" V 7095 3029 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 7050 2950 50  0001 C CNN
-F 3 "~" H 7050 2950 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/389/cd00043011-1796045.pdf" H 7050 2950 50  0001 C CNN
+F 4 "STTH2R06A" V 7050 2950 50  0001 C CNN "Part No"
+F 5 "Alt part no: C908656" V 7050 2950 50  0001 C CNN "LCSC"
 	1    7050 2950
 	0    1    1    0   
 $EndComp
@@ -41,9 +31,10 @@ L Device:C C1
 U 1 1 5E54779D
 P 4800 3900
 F 0 "C1" H 4915 3946 50  0000 L CNN
-F 1 "1u" H 4915 3855 50  0000 L CNN
+F 1 "1u 25v" H 4700 3775 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 3750 50  0001 C CNN
 F 3 "~" H 4800 3900 50  0001 C CNN
+F 4 "C146681" H 4800 3900 50  0001 C CNN "LCSC"
 	1    4800 3900
 	1    0    0    -1  
 $EndComp
@@ -55,6 +46,7 @@ F 0 "R1" H 5170 3946 50  0000 L CNN
 F 1 "0" H 5170 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5030 3900 50  0001 C CNN
 F 3 "~" H 5100 3900 50  0001 C CNN
+F 4 "C103901" H 5100 3900 50  0001 C CNN "LCSC"
 	1    5100 3900
 	1    0    0    -1  
 $EndComp
@@ -66,17 +58,19 @@ F 0 "R2" H 5470 3946 50  0000 L CNN
 F 1 "0" H 5470 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5330 3900 50  0001 C CNN
 F 3 "~" H 5400 3900 50  0001 C CNN
+F 4 "C103901" H 5400 3900 50  0001 C CNN "LCSC"
 	1    5400 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J3
+L Connector:Conn_01x02_Male J2
 U 1 1 5E549C14
 P 6500 2200
-F 0 "J3" V 6562 2244 50  0000 L CNN
+F 0 "J2" V 6562 2244 50  0000 L CNN
 F 1 "Solenoid" V 6653 2244 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 2200 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6500 2200 50  0001 C CNN
 F 3 "~" H 6500 2200 50  0001 C CNN
+F 4 "C8886" V 6500 2200 50  0001 C CNN "LCSC"
 	1    6500 2200
 	0    1    1    0   
 $EndComp
@@ -91,33 +85,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 3250 5250 3250
 Wire Wire Line
-	5250 3600 5400 3600
-Wire Wire Line
 	5400 3600 5400 3750
 Wire Wire Line
 	5250 3250 5250 3600
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5E551684
-P 4950 2200
-F 0 "J1" V 5012 2244 50  0000 L CNN
-F 1 "Power" V 5103 2244 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4950 2200 50  0001 C CNN
-F 3 "~" H 4950 2200 50  0001 C CNN
-	1    4950 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J2
-U 1 1 5E5522D2
-P 5600 2200
-F 0 "J2" V 5662 2244 50  0000 L CNN
-F 1 "Enable" V 5753 2244 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5600 2200 50  0001 C CNN
-F 3 "~" H 5600 2200 50  0001 C CNN
-	1    5600 2200
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5E5535B5
@@ -189,22 +159,9 @@ F 3 "" H 4850 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 2400 4850 2600
-$Comp
-L power:GND #PWR0106
-U 1 1 5E5560E2
-P 5500 2600
-F 0 "#PWR0106" H 5500 2350 50  0001 C CNN
-F 1 "GND" H 5505 2427 50  0000 C CNN
-F 2 "" H 5500 2600 50  0001 C CNN
-F 3 "" H 5500 2600 50  0001 C CNN
-	1    5500 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5500 2600 5500 2400
-Wire Wire Line
-	5600 2400 5600 2700
-Text Label 5600 2700 0    50   ~ 0
+	5050 2400 5050 2700
+Text Label 5050 2700 0    50   ~ 0
 Enable
 Wire Wire Line
 	6100 3050 6700 3050
@@ -236,9 +193,10 @@ L Device:CP C2
 U 1 1 5E55F875
 P 4400 3900
 F 0 "C2" H 4518 3946 50  0000 L CNN
-F 1 "47u" H 4518 3855 50  0000 L CNN
+F 1 "47u 25v" H 4250 3775 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 4438 3750 50  0001 C CNN
 F 3 "~" H 4400 3900 50  0001 C CNN
+F 4 "C336364" H 4400 3900 50  0001 C CNN "LCSC"
 	1    4400 3900
 	1    0    0    -1  
 $EndComp
@@ -260,4 +218,29 @@ Wire Wire Line
 	4400 3350 4950 3350
 Wire Wire Line
 	4400 4050 4400 4250
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 6178519F
+P 4950 2200
+F 0 "J1" V 5012 2344 50  0000 L CNN
+F 1 "PWR/EN" V 5103 2344 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4950 2200 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+F 4 "C146083" V 4950 2200 50  0001 C CNN "LCSC"
+	1    4950 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3600 5400 3600
+$Comp
+L custom:drv120 U1
+U 1 1 5E545EF0
+P 5500 3000
+F 0 "U1" H 5750 3175 50  0000 C CNN
+F 1 "DRV120" H 5750 3084 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 5700 3000 50  0001 C CNN
+F 3 "https://www.ti.com/product/DRV120" H 5700 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
