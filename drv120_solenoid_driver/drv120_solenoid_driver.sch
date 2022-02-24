@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DRV120 Solenoid Driver Module"
-Date "2020-02-24"
-Rev ""
-Comp "Mark Benson 2020"
+Date "2022-02-24"
+Rev "B"
+Comp "Mark Benson 2022"
 Comment1 "Licence MIT"
 Comment2 ""
 Comment3 ""
