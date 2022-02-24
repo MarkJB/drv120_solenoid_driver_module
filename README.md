@@ -15,3 +15,14 @@ See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
 ![RevB boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/IMG_20220219_154643318.jpg)
 
 ![RevB boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/IMG_20220219_155040351.jpg)
+
+Buy from my [tindie store](https://www.tindie.com/products/edit/solenoid-driver-module-drv120-pwm-dc-6-24v/)
+
+# Make a donation
+If you find this project useful, consider donating.
+
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="G9DSPFFJN68M4" />
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+</form>
