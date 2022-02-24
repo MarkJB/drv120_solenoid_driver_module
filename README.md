@@ -16,6 +16,7 @@ See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
 
 ![RevB boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/IMG_20220219_155040351.jpg)
 
+# Buy a board
 Buy from my [tindie store](https://www.tindie.com/products/edit/solenoid-driver-module-drv120-pwm-dc-6-24v/)
 
 # Make a donation
