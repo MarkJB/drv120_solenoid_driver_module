@@ -10,6 +10,8 @@ Testing with the chosen solenoid (MCSMO-0603S12STD) resulted in using a 4.7uF ca
 
 See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
 
+Rev B uses JST PH 2.00mm headers. If you are looking for a decent crimper that doesn't cost the earth, I can reccomend the [IWISS SN-2549](https://www.amazon.co.uk/gp/product/B01N4L8QMW/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01N4L8QMW&linkCode=as2&tag=markjbenson-21&linkId=8a0828858f3374d5fcd8f459124a937a), available on Amazon for a lot less than the offical crimps. The litte extra jaws that jut out at the front do a decent job of crimping these small connectors.
+
 ![Pinmap](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/DRV120_Solenoid_Driver_pinmap.png)
 
 ![RevB boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/IMG_20220219_154643318.jpg)
