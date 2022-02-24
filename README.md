@@ -10,6 +10,6 @@ Testing with the chosen solenoid (MCSMO-0603S12STD) resulted in using a 4.7uF ca
 
 See [datasheet](http://www.ti.com/lit/ds/symlink/drv120.pdf) for more details.
 
-![Prototype boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/IMG_20200428_175253667.png)
+![RevB boards](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/IMG_20220219_154643318.jpg)
 
-![PCB with components](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/drv120_solenoid_driver.png)
+![Pinmap](https://github.com/MarkJB/drv120_solenoid_driver_module/blob/master/drv120_solenoid_driver/images/DRV120_Solenoid_Driver_pinmap.png)
